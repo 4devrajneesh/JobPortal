@@ -1,0 +1,32 @@
+.bg-footer{
+    background-color:  #1D1934;
+  
+
+}
+
+
+/* Footer Section Start Here */
+footer{
+    background: var(--textcolor);
+}
+footer ul li a{
+    color: #BCB4B5;
+}
+footer ul li a:hover{
+    color: var(--hovercolor)
+}
+footer ul li a:hover svg path{
+    fill: var(--hovercolor)
+}
+footer .about{
+    color: #BCB4B5;
+}
+
+/* Footer Section Start Here */
+footer {
+    background: var(--textcolor);
+  }
+
+
+
+ 

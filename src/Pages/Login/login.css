@@ -1,0 +1,35 @@
+/* banner Section Start Here */
+.login-banner {
+    background: #f7f2fa;
+    width: 100%;
+  }
+  .login-banner .login-heading {
+    padding: 78px 0px;
+  }
+  .login-sec .login-box {
+    max-width: 620px;
+  }
+  input::placeholder {
+    color: rgba(174, 176, 180, 1) !important;
+  }
+  .login-sec form .forget {
+    color: rgba(33, 33, 33, 0.55);
+  }
+  .login-sec .login-btn {
+    background: var(--themecolor);
+    color: #fff !important;
+  }
+  .login-sec .login-btn:hover {
+    background: var(--hovercolor);
+  }
+  .login-sec .register {
+    color: rgba(29, 25, 52, 0.6);
+  }
+  .login-sec .register a {
+    color: rgba(229, 4, 156, 1);
+  }
+  .login-sec .register a:hover,
+  .login-sec form .forget:hover {
+    color: var(--themecolor);
+  }
+  

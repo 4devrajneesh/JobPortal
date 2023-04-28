@@ -1,0 +1,29 @@
+/* Header Section Start Here */
+
+.loging-radio-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.form-check-input:checked {
+  background-color: #6e00be !important;
+  border-color: #6e00be !important;
+}
+
+.form-post {
+  background: var(--themecolor);
+  color: #fff;
+  width: 118px;
+  background: var(--themecolor);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+header .top-header .post .post-job:hover.aa-job,
+.form-post:hover {
+  background: var(--hovercolor);
+  color: #fff;
+}

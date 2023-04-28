@@ -1,0 +1,25 @@
+
+/* Form Section Start Here */
+.form-sec input::placeholder {
+    color: #aeb0b4;
+  }
+  .form-sec .input-style {
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .company:hover,
+  .applyjob:hover {
+    background: var(--hovercolor);
+    color: #fff;
+  }
+  .company {
+    padding: 13px 17px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+  }
+  .applyjob {
+    padding: 13px 17px;
+    background: #6e00be;
+    border-radius: 10px;
+  }

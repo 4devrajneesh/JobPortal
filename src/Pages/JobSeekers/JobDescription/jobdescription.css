@@ -1,0 +1,53 @@
+/* Job Discription Section Start Here */
+.job-descriotion .requirement {
+    list-style: auto;
+    padding-left: 15px;
+  }
+  .job-descriotion .requirment-btn {
+    background: #10b981;
+  }
+  .job-descriotion .requirment-btn-1:hover {
+    background: #10b981;
+    color: #fff;
+  }
+  .job-descriotion .requirment-btn:hover {
+    background: rgba(228, 33, 33, 0.8);
+    color: #fff;
+  }
+  .job-descriotion .requirment-btn,
+  .job-descriotion .requirment-btn-1 {
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+  .job-descriotion .requirment-btn-1 {
+    background: rgba(228, 33, 33, 0.8);
+  }
+  .job-descriotion .learn-more {
+    color: var(--themecolor);
+    text-decoration: underline;
+  }
+  .job-descriotion .view-more-btn {
+    color: var(--hovercolor);
+    text-decoration: underline;
+  }
+  .job-descriotion .view-more-btn:hover {
+    color: var(--themecolor);
+    text-decoration: underline;
+  }
+  .job-descriotion .learn-more:hover {
+    color: var(--hovercolor);
+    text-decoration: underline;
+  }
+  .copy-link input {
+    padding: 7px;
+    border: 2px solid #6e00be;
+  }
+  .copy-link .copy-link-btn {
+    padding: 8px;
+    right: 28px;
+    background: #6e00be;
+    border-radius: 1px;
+  }
+  

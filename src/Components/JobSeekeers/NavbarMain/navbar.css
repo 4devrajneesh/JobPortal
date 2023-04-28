@@ -1,0 +1,55 @@
+
+header .top-header .navbar-light .navbar-nav .nav-link {
+    color: var(--textcolor);
+  }
+  header .top-header .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hovercolor);
+  }
+  header .top-header .dropdown-menu[data-bs-popper] {
+    top: 31px;
+    right: -24px;
+    margin-top: 0.125rem;
+  }
+  header .top-header .dropdown-item:hover {
+    color: #fff;
+    background-color: var(--hovercolor);
+  }
+  .header-banner {
+    background: #f7f2fa;
+  }
+  header .top-header .dropdown-toggle::after {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+  }
+  .top-header.position-fixed {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+  header .top-header .post .login {
+    background: #f7f2fa;
+    border: 2px solid #e119a0;
+    color: #e119a0;
+  }
+  header .top-header .post .login:hover {
+    background: var(--themecolor);
+    border: 2px solid var(--themecolor);
+    color: #fff;
+  }
+  header .top-header .post .post-job {
+    background: var(--themecolor);
+    color: #fff;
+    border: 2px solid var(--themecolor);
+
+    line-height: 27px;
+  }
+  header .top-header .post .post-job:hover{
+    background: #f7f2fa;
+    border: 2px solid #e119a0;
+    color: #e119a0;
+  }

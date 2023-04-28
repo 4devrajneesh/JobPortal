@@ -1,0 +1,188 @@
+
+/* Index Banner */
+.home-banner {
+    padding: 80px 0px 34px 0px;
+  }
+  .header-fix,
+  .header-banner{
+        background: #F7F2FA;
+    }
+  .home-banner form.qsb{
+    width: 87%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #E2DDEF;
+    border-radius: 8px;
+  }
+  .search-txt-1 {
+    padding: 10px 22px;
+  }
+  .discover-padding{
+    padding: 103px 0px 60px;
+  }
+  .home-banner form .search-txt {
+    padding-right: 108px;
+  }
+
+  .search-txt {
+
+    height: 68px;
+  }
+  .home-banner form .search-txt {
+    padding: 10px 18px 10px 22px;
+  }
+  .home-banner form .search-txt{
+    border-right: 1px solid #CEC9E5;
+  }
+  .home-banner input:focus-visible {
+    outline: none;
+  }
+  .Search-box   {
+    top: -2px;
+    right: 0px;
+    padding: 12px 78px;
+    background: var(--themecolor);
+    border-radius: 0px 8px 8px 0px;
+  }
+  .Search-box:hover {
+  
+    background: var(--hovercolor);
+   
+  }
+  .search-inp-mid-section{
+    width: 255px;
+    }
+    .home-banner .main-heading{
+      line-height: 53px;
+    }
+    .home-banner  .upload-resume label:hover{
+      background: var(--hovercolor);
+      color:#fff;
+      border: 1px solid var(--hovercolor);
+    }
+    .home-banner  .upload-resume label:hover svg path{
+      fill:#fff;
+    }
+    .home-banner  .upload-resume label {
+      border-radius: 100px;
+      border: 1px solid #6E00BE;
+      padding: 10px 25px;
+      color: var(--themecolor);
+    }
+    /* Job alert Sec start Here */
+.job-alert{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 71%;
+  position: absolute;
+  left: 226px;
+  top: 366px;
+}
+.Subscribe-form{
+  position: absolute;
+  right: 16px;
+  width: 473px;
+  border: 2px solid #E6049C;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+padding: 2px;
+padding-left: 10px;
+padding-bottom: 5px;
+  top: 14px;
+}
+.Subscribe-form input {
+  overflow: hidden;
+  width: 78%;
+  padding: 12px;
+outline: none;
+  background: #FFFFFF;
+ border: none;
+}
+.Subscribe-form  .subscribe {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  right: 7px;
+  top: 6px;
+  background: var(--hovercolor);
+}
+
+.Subscribe-form-active{
+
+  border: 2px solid #6E00BE;
+
+}
+.Subscribe-form  .subscribe:hover{
+  background: var(--themecolor);
+}
+
+  
+
+.search-btn-midsection {
+  background: #6e00be;
+  border-radius: 0px 8px 8px 0px;
+  height: 48px;
+  border:1px solid  #6e00be;
+  color: #fff;
+  padding: 0 48px;
+  width: 167px;
+}
+
+.search-btn-midsection:hover{
+  background: var(--hovercolor);
+}
+.inp-no-border {
+  border: none;
+  outline: none;
+  
+  width: 88% !important;
+}
+.svg-size {
+  margin-left: 5px;
+  width: 16px !important;
+}
+
+.custum-border-1{
+    border:1px solid #E2DDEF;
+  border-radius: 8px 0px 0px 8px;
+  background-color: white;
+  height: 48px;
+}
+.custum-border-1-active{
+    border:1px solid #6e00be;
+  border-radius: 8px 0px 0px 8px;
+  background-color: white;
+  height: 48px;
+}
+.custum-border-2{
+  background-color: white;
+  height: 48px;
+  border:1px solid #E2DDEF;
+
+}
+.custum-border-2-active{
+    border:1px solid #6e00be;
+    background-color: white;
+    height: 48px;
+
+}
+.custum-border-3{
+    border:1px solid #E2DDEF;
+    background-color: white;
+    height: 48px;
+
+}
+.custum-border-3-active{
+    border:1px solid #6e00be;
+    background-color: white;
+    height: 48px;
+
+}
+  
+  
+
+@media (min-width: 992px) {
+
+  .w-lg-25 { width: 25%!important; }
+}

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Gobal Css Start Here */
+:root {
+  --themecolor: #6e00be;
+  --hovercolor: #e6049c;
+  --textcolor: #1d1934;
+}
+body {
+  margin: 0;
+  font-family: "poppins";
+  font-size: 16px;
+  color: #212121;
+}
+img {
+  max-width: 100%;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font18 {
+  font-size: 18px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font21 {
+  font-size: 21px;
+}
+.font22 {
+  font-size: 22px;
+}
+.font25 {
+  font-size: 25px;
+}
+.font30 {
+  font-size: 30px;
+}
+.font36 {
+  font-size: 36px;
+}
+.fw300 {
+  font-weight: 300;
+}
+.fw400 {
+  font-weight: 400;
+}
+.fw500 {
+  font-weight: 500;
+}
+.fw600 {
+  font-weight: 600;
+}
+.container {
+  max-width: 1320px !important;
+}
+.radius-36 {
+  border-radius: 43px;
+  padding: 5px 18px;
+}
+.black-color {
+  color: #000000;
+}
+.form-control:focus {
+  border-color: rgba(255, 48, 48, 1) !important;
+  box-shadow: none;
+}
+.span-color {
+  color: #6e00be;
+}
+.text-color {
+  color: #1d1934;
+}
+.heading-color {
+  color: #333333;
+}
+/* Global CSS End Here */
+  
+.form-text {
+  font-weight: 500 !important;
+  font-size: 21px !important;
+  line-height: 30px;
+  color: #1d1934 !important;
+}
+
+
+#form-input {
+  border-color: var(--themecolor);
+  border: 2px solid var(--themecolor);
+}
+
+.page-link.active {
+  color: #fff;
+  background: var(--hovercolor) !important;
+  border-radius: 5px !important;
+  border: 1px solid var(--hovercolor) !important;
+}
+.form-text-1{
+  padding-left: 106px !important;
+  color:  #585858 !important;
+}
+
+.card:hover {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.175)!important;
+}
